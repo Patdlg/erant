@@ -135,7 +135,8 @@ width: 150px;
   
   .section-b {
     position: relative;
-    background: url('img/Picture\ 4.jpg') no-repeat bottom center/cover;
+    background: url('https://www.wonderopolis.org/wp-content/uploads/2016/05/Lacrosse_catching_ball_xl_19341673_(Custom).jpg') no-repeat bottom center/cover;
+    height: 600px;
     height: 600px;
   }
   
@@ -355,6 +356,15 @@ width: 150px;
   #lac {
       margin-top: 150px;
       
+  }
+
+  .section-gallery {
+    display: flex;
+  }
+
+  .section-gallery img {
+    flex-direction: row;
+    width: 100%;
   }
 
 
